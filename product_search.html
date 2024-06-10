@@ -8,13 +8,37 @@
 </head>
 <body>
 
+ 
+<h3>this is the search pg</h3>
+
+    <h1><a href="product_detail.html">details pg </a></h1>
+    <h2><a href="index.html">home pg </a></h2>
+
+      
       <!-- dropdown to kick off the display of things-->
    <select id="productSearchDDL">
-     <option value="">Select One..</option>
-     <option value="category">Search by Category</option>
-     <option value="viewAll">View viewAll</option>
-
+    <option value="">Select One..</option>
+    <option value="category">Search by Category</option>
+    <option value="viewAll">View viewAll</option>
+ 
    </select>
+    <div class="pb-4 mt-4 container" id="allProductTable">
+        <table>
+            <thead>
+                <tr>
+                    <th>Product Name</th>
+                    <th>Unit Price</th>
+                    <th>Units in Stock</th>
+                    <th>Category Id</th>
+                    <th>Supplier</th>
+                    <th>Discounted?...</th>
+                </tr>
+            </thead>
+            <tbody id="tbodyTable">
+            </tbody>
+        </table>
+    </div>
+    
 
 <!-- some table to display products -->
 
